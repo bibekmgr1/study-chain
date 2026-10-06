@@ -62,3 +62,16 @@ Colosseum Crypto World's Fair Hackathon — Superteam Nepal Track
 **v1 (current):** Permissionless failure enforced by on-chain clock.
 
 **v2 (next):** Stake SOL on commitments. Lock it in a PDA. Complete the commitment, get it back. Fail it, and the stake goes to a designated recipient (friend, charity, or burn address). This makes StudyChain a true commitment device with real skin in the game — something only possible on-chain.
+
+## Transaction Evidence
+
+All three instructions verified on Solana Devnet:
+
+### create_commitment
+https://explorer.solana.com/tx/4rz9FV7JBGmd9kXoCHskXZgr2dtCYfaNh74oDGZRTESMbE5SCRfPaba7SgAggoo9Cvj9ksVMggXZ7FNini3p1XT1?cluster=devnet
+
+### complete_commitment
+https://explorer.solana.com/tx/7BUCspAWV1HnuAiRM1EzejYAtGyEZz17qDEkp87V5eou1Lfgn3MKvVqPUeRAKLwQ9wZYD4pm6b3VQzzfSKVVBEJ?cluster=devnet
+
+### fail_commitment (permissionless)
+https://explorer.solana.com/tx/5Rz6ppAegXrpoB3irwsp2uFo3zDaKUYDaJzGNeGMxjnBtiApmZsH3ykameTv5tFv9biMRV49voQtVauRo9sWRJbV?cluster=devnet
