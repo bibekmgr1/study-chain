@@ -35,17 +35,21 @@ Marks the commitment as completed. Fails if already marked failed.
 Permissionless — anyone can call it after the deadline has passed. Fails if already completed or if the deadline hasn't passed yet.
 
 ## Test
-anchor test
+Running client...
+  client.ts:
+
 Running tests...
   anchor.test.ts:
   StudyChain Test
-    ✅  Created commitment: 8roGNchqWg4cdpoSonKf7qpbX6RfvWjx9fsFY7yeXW2g
-    ✅  Completed commitment
-    ✅  Created commitment with past deadline
-    ✅  Failed commitment (permissionless)
-    🎉  All tests passed
-    ✔  Creates, completes, and fails commitments (1746ms)
-  1 passing (2s)
+     Created commitment: FnRWjupG2GZvm9ss53K9JmD6TCm446D1WKhEqv1ScZxX
+     Completed commitment
+     Created commitment with past deadline
+$      Failed commitment (permissionless)
+     All tests passed
+    ✔  Creates, completes, and fails commitments (4003ms)
+  1 passing (4s)
+$ 
+
 Team
 Bibek Thapa Magar (Nepal) — BBS student learning Rust and Solana
 
